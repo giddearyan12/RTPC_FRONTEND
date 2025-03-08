@@ -1,0 +1,113 @@
+/* Dashboard.css */
+.admin-home {
+  max-width: 100%;
+  margin: 10px auto;
+  background: #ffffff;
+  
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.controls input,
+.controls select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+.controls input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.controls select {
+  cursor: pointer;
+  background: #f8f9fa;
+}
+
+.controls input:focus,
+.controls select:focus {
+  border-color: #4C3575;
+  outline: none;
+}
+
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-table th,
+.project-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.project-table thead {
+  background: #4C3575;
+  color: #fff;
+}
+
+.project-table tbody tr:nth-child(even) {
+  background: #f8f9fa;
+}
+
+.project-table tbody tr:hover {
+  background: #e9ecef;
+  transition: background 0.3s ease;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 5px;
+}
+
+.accept-btn {
+  background: #28a745;
+  color: white;
+}
+
+.reject-btn {
+  background: #dc3545;
+  color: white;
+}
+
+.remove-btn {
+  background: #ffc107;
+  color: black;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.loader {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.error-message {
+  text-align: center;
+  font-size: 16px;
+  color: red;
+  margin-top: 10px;
+}

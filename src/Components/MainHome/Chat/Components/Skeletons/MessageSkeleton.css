@@ -1,0 +1,49 @@
+.skeleton {
+    background-color: #e5e7eb; 
+    animation: skeleton-loading 1.5s infinite linear;
+  }
+  
+  @keyframes skeleton-loading {
+    0% {
+      background-color: #e5e7eb; 
+    }
+    50% {
+      background-color: #f3f4f6;
+    }
+    100% {
+      background-color: #e5e7eb;
+    }
+  }
+  
+  .skeleton-rounded {
+    border-radius: 50%;
+  }
+  
+  .skeleton-small {
+    height: 1rem; 
+    width: 10rem; 
+  }
+  
+  .skeleton-avatar {
+    height: 2.5rem; 
+    width: 2.5rem;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  
+  .skeleton-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem; 
+  }
+  
+  .skeleton-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .skeleton-row-end {
+    justify-content: flex-end;
+  }
+  
