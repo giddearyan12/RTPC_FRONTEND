@@ -7,7 +7,7 @@ import toast from "react-hot-toast";
 import axios from "axios";
 
 const Registration = () => {
-  const url = process.env.BACKEND_URL;
+  const url = 'https://proyecta-minds-production.up.railway.app';
   const [curr, setCurr] = useState("Register");
   const { setAuthUser } = useAuthContext();
   const [role, setRole] = useState("user"); // ✅ New state for role (user/admin)
